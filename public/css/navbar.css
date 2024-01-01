@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: yellow;
+}
+
+#right #link {
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-family: monospace;
+    transition: 0.5s;
+}
+
+header div span {
+    font-size: 30px ;
+    font-family: monospace;
+    color: black;
+    cursor: pointer;
+}
+
+a:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+#right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+

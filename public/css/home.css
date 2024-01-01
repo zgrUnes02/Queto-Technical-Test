@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 450px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black ;;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 200px;
+}
+
+p {
+    margin-top: 10px;
+}
